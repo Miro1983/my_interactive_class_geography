@@ -1,0 +1,17 @@
+streamlit
+pandas
+requests
+matplotlib
+leafmap
+shillelagh
+sqlalchemy < 2.0
+sqlalchemy.ext < 2.0
+google.auth
+plotly
+branca
+pathlib
+pydrive
+#logging
+numpy
+Pillow
+geopy
