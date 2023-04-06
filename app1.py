@@ -126,8 +126,8 @@ if img_file_buffer is not None:
     button2 = options_form2.form_submit_button('Зареди снимката')
     if button2 and name is not None:
  
-        im.save(f"{name}.png")
-        image_string = f'{name}.png'
+        im.save(f"{name}.jpg")
+        image_string = f'{name}.jpg'
         gfile = drive.CreateFile({'parents': [{'id': my_drive}]})
         gfile.SetContentFile(image_string)
         gfile.Upload()
